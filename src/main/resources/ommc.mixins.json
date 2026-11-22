@@ -1,0 +1,38 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "com.plusls.ommc.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "ommc.refmap.json",
+  "client": [
+    "accessor.ChatComponentAccessor",
+    "feature.advancedIntegratedServer.MixinIntegratedServer",
+    "feature.advancedIntegratedServer.MixinIntegratedServerPort",
+    "feature.autoSwitchElytra.MixinClientPlayerEntity",
+    "feature.betterSneaking.MixinPlayerEntity",
+    "feature.blockModelNoOffset.MixinBlockStateBase",
+    "feature.disableBlocklistCheck.MixinSocialInteractionsManager",
+    "feature.disableBreakBlock.MixinClientPlayerInteractionManager",
+    "feature.disableBreakScaffolding.MixinClientPlayerInteractionManager",
+    "feature.disableMoveDownInScaffolding.MixinScaffoldingBlock",
+    "feature.disableMoveDownInScaffolding.ScaffoldingBlockAccessor",
+    "feature.disablePistonPushEntity.MixinPistonMovingBlockEntity",
+    "feature.flatDigger.MixinClientPlayerInteractionManager",
+    "feature.forceBreakingCooldown.MixinClientPlayerInteractionManager",
+    "feature.forceBreakingCooldown.MultiPlayerGameModeAccessor",
+    "feature.highlightEntity.MixinEntity",
+    "feature.highlightLavaSource.FluidTypeAccessor",
+    "feature.highlightPersistentMob.MixinEntity",
+    "feature.highlightWaypoint.MixinChatHud",
+    "feature.highlightWaypoint.MixinClientPacketListener",
+    "feature.preventIntentionalGameDesign.MixinClientPlayerInteractionManager",
+    "feature.preventWastageOfWater.MixinClientPlayerInteractionManager",
+    "feature.removeBreakCooldown.MixinClientPlayerInteractionManager",
+    "feature.worldEaterMineHelper.BlockModelAccessor",
+    "feature.worldEaterMineHelper.MixinBlockRenderDispatcher",
+    "feature.worldEaterMineHelper.MixinJsonUnbakedModel"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
